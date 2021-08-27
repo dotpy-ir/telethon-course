@@ -1,0 +1,3 @@
+API_ID = 0000
+API_HASH = ""
+TOKEN = ""
