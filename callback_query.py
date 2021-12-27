@@ -14,7 +14,8 @@ async def start_handler(event):
 async def inline_handler(event):
     data = event.data.decode()
     print(data)
-    await event.client.send_message(event.chat_id, data, file=data)
+    # await event.client.send_message(event.chat_id, data, file=data)
+    await event.answer("clicked", alert=True)
 
 
 async def main():
